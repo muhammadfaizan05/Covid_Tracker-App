@@ -1,0 +1,49 @@
+.card{
+   border-top: red 1.2px dotted;
+   margin: 10px;
+}
+.infected{
+    border-bottom: rgb(223, 139, 14) 8px solid;
+}
+.recovered{
+    border-bottom: rgb(14, 223, 49) 8px solid;
+}
+.death{
+    border-bottom: rgb(223, 14, 14) 8px solid;
+}
+/* .container{
+    margin-top: 2%;
+ } */
+
+h2{
+    margin-top: -1.7%;
+}
+.main_cover{
+    position: relative;
+}
+.developer_name{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 40%;
+    color: blueviolet;
+}
+#mainimg{
+    width: 75%;
+}
+
+@media (max-width:400px){
+    .main_title{
+        font-size: medium;
+    }
+    #mainimg{
+        width: 100%;
+        height: 30vh;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    .developer_name{
+        font-size: medium;
+    }
+}
